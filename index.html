@@ -2,14 +2,34 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Drum kit</title>
 </head>
 
 <body>
-
+    <div class="text-center pt-5">
+        <div class="sm:text-8xl text-5xl font-semibold flex justify-center items-center">
+            <div class="sm:mr-4 mr-2">Drum kit</div>
+            <img src="images/favicon.ico" alt="" srcset="" class="sm:w-20 sm:h-20">
+        </div>
+        <div class="flex justify-around flex-wrap mt-10">
+            <button class="btn bg-[url('images/tom1.png')]" onmousedown="sound1.play()">W</button>
+            <button class="btn bg-[url('images/tom3.png')]" onmousedown="sound2.play()">A</button>
+            <button class="btn bg-[url('images/tom2.png')]" onmousedown="sound3.play()">S</button>
+            <button class="btn bg-[url('images/tom4.png')]" onmousedown="sound4.play()">D</button>
+            <button class="btn bg-[url('images/snare.png')]" onmousedown="sound5.play()">J</button>
+            <button class="btn bg-[url('images/crash.png')]" onmousedown="sound6.play()">K</button>
+            <button class="btn bg-[url('images/kick.png')]" onmousedown="sound7.play()">L</button>
+        </div>
+    </div>
+    <footer>
+        <!-- <div class="sm:text-xl text-center mt-32 sm:mt-40">Drum bajao bhai</div> -->
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

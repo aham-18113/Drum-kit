@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+	@apply bg-cover sm:text-4xl text-3xl m-2 font-bold w-20 h-20 sm:w-28 sm:h-28 text-rose-600 rounded-md outline outline-gray-700;
+}
+
+@tailwind utilities;

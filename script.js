@@ -1,0 +1,14 @@
+let sound1 = new Audio();
+sound1.src = "sounds/tom-1.mp3";
+let sound2 = new Audio();
+sound2.src = "sounds/tom-3.mp3";
+let sound3 = new Audio();
+sound3.src = "sounds/tom-2.mp3";
+let sound4 = new Audio();
+sound4.src = "sounds/tom-4.mp3";
+let sound5 = new Audio();
+sound5.src = "sounds/snare.mp3";
+let sound6 = new Audio();
+sound6.src = "sounds/crash.mp3";
+let sound7 = new Audio();
+sound7.src = "sounds/kick-bass.mp3";
